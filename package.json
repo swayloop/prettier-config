@@ -1,6 +1,6 @@
 {
   "name": "@swayloop/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shared Prettier config for swayloop org projects",
   "main": "index.js",
   "files": [
