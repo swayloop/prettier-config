@@ -1,8 +1,29 @@
 {
-  "name": "swayloop-app",
-  "version": "1.0.0",
-  "description": "TODO: 한 줄 설명",
-  "private": true,
+  "name": "@swayloop/prettier-config",
+  "version": "0.0.0",
+  "description": "Shared Prettier config for swayloop org projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "swayloop"
+  ],
+  "author": "swayloop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swayloop/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swayloop/prettier-config/issues"
+  },
+  "homepage": "https://github.com/swayloop/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "husky",
     "preinstall": "npx only-allow pnpm"
@@ -10,6 +31,9 @@
   "packageManager": "pnpm@10.18.0",
   "engines": {
     "node": ">=20"
+  },
+  "peerDependencies": {
+    "prettier": ">=3"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.3",
